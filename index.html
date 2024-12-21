@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/aos.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Svg Mask</title>
+</head>
+
+<body>
+ 
+    <div class="wrapper">
+        <div class="content">
+          <section class="section hero" id="hero">
+          
+          </section>
+          <section class="section gradient-purple" id="about">
+            <header class="menuWrap">
+                <ul class="list-unstyled menu">
+                    
+                    <li><a href="#about" rel='m_PageScroll2id'>About</a></li>
+                    <li><a href="#skill" rel='m_PageScroll2id'>Skills</a></li>
+                    <li><a href="#work" rel='m_PageScroll2id'>Works</a></li>
+                    <li><a href="#contact" rel='m_PageScroll2id'>Contact</a></li>
+                </ul>
+            </header>
+                <div class="container-fluid">
+                    <div class="container">
+                        <div class="row aboutRow">
+                            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6" data-aos="fade-right"data-aos-duration="500" data-aos-delay="2000">
+                                <h1 class="aboutTitle" id="box1">About Me</h1>
+                                <ul class="list-unstyled aboutList row">
+                                    <li class="col-xs-6 col-md-6">
+                                        <div class="aboutList__items rect">
+                                            <strong class="aboutList__items--title">Fullname :</strong>
+                                            <span class="aboutList__items--text">Mahsa Partovi</span>
+                                        </div>
+                                    </li>
+                                    <li class="col-xs-6 col-md-6">
+                                        <div class="aboutList__items rect">
+                                            <strong class="aboutList__items--title">Job Title :</strong>
+                                            <span class="aboutList__items--text">Web Designer</span>
+                                        </div>
+                                    </li>
+                                    <li class="col-xs-6 col-md-6">
+                                        <div class="aboutList__items rect">
+                                            <strong class="aboutList__items--title">Company Name and Location :</strong>
+                                            <span class="aboutList__items--text">
+                                                Company Name and Location
+                                            </span>
+                                        </div>
+                                    </li>
+                                    <li class="col-xs-6 col-md-6">
+                                        <div class="aboutList__items rect">
+                                            <strong class="aboutList__items--title">Education :</strong>
+                                            <span class="aboutList__items--text">
+                                                Bachelor of Computer Science | University of XYZ | 2018 - 2022
+                                            </span>
+                                        </div>
+                                    </li>
+                                    <li class="col-xs-12 col-md-12">
+                                        <div class="aboutList__items rect">
+                                            <strong class="aboutList__items--title">Description :</strong>
+                                            <span class="aboutList__items--text">
+                                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius sit natus rerum veritatis, in voluptatem cum at vitae explicabo ipsa autem consequatur accusamus optio error enim provident magni dolorum quas.
+                                            </span>
+                                        </div>
+                                    </li>
+                                </ul>
+                               
+                            </div>
+                            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6" data-aos="fade-left"data-aos-duration="900" data-aos-delay="2000">
+                                <div class="aboutImgWrap">
+                                    <img src="img/wave.png" class="shape" alt="">
+                                    <img src="img/about.png" class="aboutImg" alt="">
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                
+          </section>
+          <section class="section gradient-blue" id="skill">
+            <div class="container-fluid">
+                <div class="container">
+                    <h2 class="pageTitle">My Skills</h2>
+                    <ul class="list-unstyled skillList">
+                        <li  data-aos="fade-up" data-aos-delay="200">
+                            <a href="" class="skills">
+                                <img src="img/figma.png" alt="">
+                            </a>
+                        </li>
+                        <li data-aos="fade-up" data-aos-delay="400">
+                            <a href="" class="skills">
+                                <img src="img/illustrator.png" alt="">
+                            </a>
+                        </li>
+                        <li data-aos="fade-up" data-aos-delay="600">
+                            <a href="" class="skills">
+                                <img src="img/photoshop.png" alt="">
+                            </a>
+                        </li>
+                        <li  data-aos="fade-up" data-aos-delay="800">
+                            <a href="" class="skills">
+                                <img src="img/blender.png" alt="">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+    
+          </section>
+         
+        </div>
+        <div class="image-container">
+            <svg width="100%" height="100%" class="mask">
+                <defs>
+                    <mask id="mask" x="0" y="0" width="100%" height="100%">
+                        <rect x="0" y="0" width="100%" height="100%" />
+                        <text x="50%" y="50%"  fill="black" text-anchor="middle">MAHSA</text>
+                    </mask>
+                </defs>
+                <rect x="0" y="0" width="100%" height="100%" />
+            </svg>
+            <div class="hero__typewrap">
+                <h1>I' am a <span class="typed"></span></h1>
+            </div>
+          
+
+        </div>
+      </div>
+
+    <script src="js/jquery-3.6.4.min.js"></script>
+    <script src="js/gsap.min.js"></script>
+    <script src="js/ScrollTrigger.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/aos.js"></script>
+    <script src="js/typed.min.js"></script>
+    <script src="js/jquery.malihu.PageScroll2id.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+
+</html>
